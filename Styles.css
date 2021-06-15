@@ -1,38 +1,318 @@
-button {
-  z-index: 1;
-  background: dodgerblue;
-  height: 40px;
-  width: 140px;
+.headbuttons {
+  background: black;
+  font-size: 105%;
+  height: 43px;
+  margin: 0px;
+  margin-left: 0px;
   color: #fff;
   border-style: none;
-  border-radius: 4px;
+  border-radius: 0px;
 }
-button:hover {
-  z-index: 1;
-  background: deepskyblue;
-  color: white;
+.headbuttons:hover {
+  background: darkgray;
+  color: black;
 }
-button:focus {
-  z-index: 1;
-  background: lightblue;
-  color: goldenrod;
+button {
+  padding-left: 22px;
+  padding-right: 22px;
 }
-button:active {
-  z-index: 1;
-  background: rgb(92, 216, 133);
-  color: goldenrod;
+select {
+  padding-left: 7px;
+  padding-right: 7px;
 }
-.header {
-  z-index: 1;
-  text-align: center;
+/* button:focus {
+    background: lightblue;
+    color: goldenrod;
+  }
+  button:active {
+    background: rgb(92, 216, 133);
+    color: goldenrod;
+  } */
+.headerClass {
+  z-index: 0;
+  position: fixed;
+  width: 100%;
+  height: 45px;
+  background-color: black;
+  border-style: none;
+  border-radius: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
-.wholePage {
-  z-index: 1;
-  border: blue;
-  border-style: dashed;
+.body {
+  margin: 0%;
+  /* border-style: dashed;
   text-align: center;
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); */
+}
+img {
+  z-index: 1;
+  width: 100%;
+  height: auto;
+}
+
+.ticket_image {
+  max-height: 270px;
+}
+
+.textInPhoto {
+  color: rgb(255, 255, 255);
+  position: absolute;
+  bottom: 12px;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+.secondPart {
+  z-index: -1;
+  margin-top: 75px;
+  margin-bottom: 75px;
+  position: relative;
+  text-align: center;
+  background-color: transparent;
+  width: 100%;
+}
+.theBand {
+  font-size: 125%;
+  position: relative;
+  text-align: center;
+}
+.picture {
+  z-index: -1;
+  position: relative;
+  text-align: center;
+  color: black;
+}
+.desc {
+  display: flex;
+  font-size: 105%;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.description {
+  margin-top: 45px;
+  max-width: 800px;
+  justify-content: center;
+}
+.threepictures {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 100%;
+  height: auto;
+}
+.secondPicture {
+  display: flex;
+  max-width: 105px;
+  flex-direction: column;
+}
+.thirdPart {
+  max-width: 100%;
+  display: flex;
+  margin-top: 75px;
+  margin-bottom: 75px;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+
+.title {
+  font-size: 225%;
+  text-align: center;
+  width: 100%;
+  margin-top: 22px;
+  margin-bottom: 22px;
+}
+.row1 {
+  margin-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: black;
+  background-color: white;
+  display: flex;
+}
+.three {
+  padding: 4px;
+  margin: 4px 2px;
+  background-color: black;
+  color: #fff;
+  border-radius: 50%;
+}
+.sold {
+  background-color: red;
+  color: #fff;
+  margin-left: 15px;
+}
+.row3 {
+  margin-top: 4px;
+  margin-bottom: 4px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.row {
+  display: flex;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+.buyTickets {
+  max-width: 225px;
+  margin-top: 22px;
+  margin-left: 22px;
+  margin-bottom: 37px;
+  margin-right: 22px;
+  background-color: #fff;
+  color: black;
+}
+.buyTicketsText {
+  font-size: 105%;
+  margin-bottom: 22px;
+}
+.amsativ {
+  font-size: 120%;
+}
+.thirdMainDiv {
+  max-width: 800px;
+}
+.secondPartfirsts {
+  width: 100% - 44px;
+  margin-left: 22px;
+  margin-right: 22px;
+  display: flex;
+  flex-direction: column;
+}
+.pictureBody {
+  margin-bottom: 12px;
+  margin-right: 12px;
+  margin-left: 12px;
+}
+.tickets {
+  padding-left: -22;
+  padding-right: -22;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#button1:hover {
+  background-color: antiquewhite;
+  color: black;
+}
+.nameEmail {
+  margin-bottom: 6px;
+  width: auto;
+  display: flex;
+  flex-direction: row;
+}
+.contactRight {
+  right: initial;
+  max-width: 400px;
+  width: 50%;
+  min-width: 225px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.contact {
+  width: 100%;
+  max-width: 800px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer1 {
+  margin-left: 22px;
+  margin-right: 22px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contact_name {
+  height: 22px;
+  width: 100%;
+  margin-right: 6px;
+}
+.contact_email {
+  width: 100%;
+}
+.contact_message {
+  height: 22px;
+  margin-bottom: 6px;
+}
+.threepictures {
+  width: 100%;
+  max-width: 800px;
+  margin-top: 52px;
+  display: flex;
+  justify-content: space-around;
+}
+.secondPicture {
+  max-height: 210px;
+  width: auto;
+}
+.last_picture {
+  z-index: 1;
+  width: 100%;
+  height: auto;
+  margin-top: 90px;
+}
+.sendButton {
+  right: 0px;
+}
+.dropbtn {
+  background-color: black;
+  color: white;
+  padding: 12px;
+  font-size: 105%;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: darkgray;
+  color: black;
+}
+.socialLinks {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icons {
+  max-height: 25px;
+  max-width: 25px;
 }
