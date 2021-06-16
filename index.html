@@ -3,29 +3,20 @@
   <head>
     <link rel="stylesheet" href="styles.css" />
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="viewport" content="height=device-height, initial-scale=1.0" />
     <meta />
     <title>Document</title>
     <style></style>
   </head>
-  <body class="body">
-    <header class="headerClass">
-      <form action="#A1">
-        <button class="headbuttons" type="submit">HOME</button>
-      </form>
-      <form action="#A2">
-        <button class="headbuttons" type="submit">BAND</button>
-      </form>
-      <form action="#A3">
-        <button class="headbuttons" type="submit">TOUR</button>
-      </form>
-      <form action="#A4">
-        <button class="headbuttons" type="submit">CONTACT</button>
-      </form>
+  <body>
+    <header class="header">
+      <a class="navLink" href="#home">HOME</a>
+      <a class="navLink" href="#band">BAND</a>
+      <a class="navLink" href="#tour">TOUR</a>
+      <a class="navLink" href="#footer">CONTACT</a>
       <div class="dropdown">
-        <button class="dropbtn">More</button>
+        <button class="dropdownBtn">More</button>
         <div class="dropdown-content">
           <a href="#">Merchandise</a>
           <a href="#">Extras</a>
@@ -34,17 +25,16 @@
       </div>
       </select>
     </header>
-    <br id="A1"/>
-    <div class="picture">
+    <div class="concertPicture" id="home">
       <img src="images/wallPapers/concerteWalpaper.jpg" />
-      <div class="textInPhoto">
-        <strong id="A2">Sao Paulo</strong><br />
+      <div class="wallpaperDesc">
+        <strong>Sao Paulo</strong><br />
         Thank you, Sao Paulo - A night we won't forget.
-      </div >
+      </div>
     </div>
-    <div  class="secondPart">
-      <div class="theBand"><h1>QWEEN<h1></h1></div>
-      <div class="desc">
+    <div class="secondPart section" id="band">
+      <h1 class="bandName">QWEEN</h1>
+      <div class="descContainer">
         <div class="description">
           We have created a fictional band website. Lorem ipsum dolor sit amet,
           consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
@@ -58,87 +48,87 @@
           nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
           consequat.
         </div>
-        <div class="threepictures">
+        <div class="bandMembers">
           <div>
             Brian May
-            <img class="secondPicture" src="images/singersPhotos/brianMay.jpg" />
+            <img class="bandMemberPicture" src="images/singersPhotos/brianMay.jpg" />
           </div>
           <div>
             Fredy Mercury
-            <img class="secondPicture" src="images/singersPhotos/fredy.jpg" />
+            <img class="bandMemberPicture" src="images/singersPhotos/fredy.jpg" />
           </div>
           <div>
             Roger Taylor
-            <img ID="A3" class="secondPicture" src="images/singersPhotos/rogerTaylor.jpg" />
+            <img class="bandMemberPicture" src="images/singersPhotos/rogerTaylor.jpg" />
           </div>
         </div>
       </div>
     </div>
-    <div  class="thirdPart">
+    <div  class="thirdPart section" id="tour">
       <div class="title">TOUR DATES</div>
-      <div class="thirdMainDiv">
-        <div class="secondPartfirsts">
-          <div class="row1">
-            <div class="row">
+      <div>
+        <div class="ticketRows">
+          <div class="rowDiv">
+            <div class="ticketsSoldOut">
               <div>September</div>
               <div class="sold">Sold out</div>
             </div>
           </div>
-          <div class="row1">
-            <div class="row">
+          <div class="rowDiv">
+            <div class="ticketsSoldOut">
               <div>October</div>
               <div class="sold">Sold out</div>
             </div>
           </div>
-          <div class="row1">
-            <div class="row3">
+          <div class="rowDiv">
+            <div class="ticketsAvilable">
               <div>November</div>
               <div class="three">3</div>
             </div>
           </div>
         </div>
-        <div class="tickets">
-          <div class="buyTickets">
-            <img class="ticket_image" , src="images/cityPictures/newYork.jpg" />
-            <div class="pictureBody">
+        <div class="concertCitys">
+          <div class="concertCity">
+            <img class="concertCityImage" , src="images/cityPictures/newYork.jpg" />
+            <div class="concertDesc">
               <h4>New York</h4>
-              <div class="amsativ">Fri 27 Nov 2016</div>
+              <div>Fri 27 Nov 2016</div>
               <br />
               <div class="buyTicketsText">
                 Praesent tincidunt sed tellus ut rutrum sed vitae justo.
               </div>
-              <button class="headbuttons">Buy Tickets</button>
+              <button>Buy Tickets</button>
             </div>
           </div>
-          <div class="buyTickets">
-            <img class="ticket_image" , src="images/cityPictures/paris.jpg" />
-            <div class="pictureBody">
+          <div class="concertCity">
+            <img class="concertCityImage" , src="images/cityPictures/paris.jpg" />
+            <div class="concertDesc">
               <h4>Paris</h4>
-              <div class="amsativ">Fri 27 Nov 2016</div>
+              <div>Fri 27 Nov 2016</div>
               <br />
               <div class="buyTicketsText">
                 Praesent tincidunt sed tellus ut rutrum sed vitae justo.
               </div>
-              <button class="headbuttons">Buy Tickets</button>
+              <button>Buy Tickets</button>
             </div>
           </div>
-          <div  class="buyTickets">
-            <img class="ticket_image" , src="images/cityPictures/sanFracisco.jpg" />
-            <div class="pictureBody">
+          <div  class="concertCity">
+            <img class="concertCityImage" src="images/cityPictures/sanFracisco.jpg" />
+            <div class="concertDesc">
               <h4>San Francisco</h4>
-              <div class="amsativ">Fri 27 Nov 2016</div>
+              <div>Fri 27 Nov 2016</div>
               <br />
               <div class="buyTicketsText">
                 Praesent tincidunt sed tellus ut rutrum sed vitae justo.
               </div>
-              <button ID="A4" class="headbuttons">Buy Tickets</button>
+              <button>Buy Tickets</button>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <footer >
-      <div class="footer1">
+    <footer>
+      <div class="footer section" id="footer">
         <h1>CONTACT</h1>
         <div class="contact">
           <div>
@@ -147,7 +137,7 @@
             Email: mail@mail.com
           </div>
           <div class="contactRight">
-            <div class="nameEmail">
+            <div class="nameAndEmail">
               <input
                 class="contact_name"
                 type="text"
@@ -176,7 +166,7 @@
           </div>
         </div>
       </div>
-      <img class="last_picture" src="images/wallPapers/queen-wallpaper.jpg" />
+      <img class="last_picture" src="images/wallPapers/queen-wallpaper.jpg"/>
       <div class = "socialLinks">
         <a href="https://www.Facebook.com"> <img class = "icons" src="images/logos/facebook.png"/></a>
         <a href="https://www.instagram.com"> <img class = "icons" src="images/logos/instagramLogo.png"/></a>
