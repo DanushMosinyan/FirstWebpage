@@ -1,6 +1,5 @@
 body {
   margin: 0;
-  display: grid;
 }
 
 .header {
@@ -83,7 +82,7 @@ img {
   max-height: 270px;
 }
 
-.secondPart {
+.aboutBand {
   position: relative;
   text-align: center;
   background-color: white;
@@ -107,7 +106,6 @@ img {
 
 .description {
   max-width: 800px;
-  justify-content: center;
 }
 
 .bandMembers {
@@ -124,8 +122,7 @@ img {
   flex-direction: column;
 }
 
-.thirdPart {
-  max-width: 100%;
+.tourTickets  {
   width: 100%;
   background-color: black;
   color: white;
@@ -135,7 +132,7 @@ img {
 }
 
 .title {
-  font-size: 225%;
+  font-size: 2.25rem;
   text-align: center;
   width: 100%;
   margin-top: 22px;
@@ -151,7 +148,7 @@ img {
   display: flex;
 }
 
-.three {
+.avilableTickets {
   padding: 4px;
   margin: 4px 2px;
   background-color: black;
@@ -243,22 +240,22 @@ img {
   align-items: center;
 }
 
-.contact_name {
+.contactName {
   height: 22px;
   width: 100%;
   margin-right: 6px;
 }
 
-.contact_email {
+.contactEmail {
   width: 100%;
 }
 
-.contact_message {
+.contactMessage {
   height: 22px;
   margin-bottom: 6px;
 }
 
-.last_picture {
+.lastPicture {
   width: 100%;
   height: auto;
   margin-top: 90px;
@@ -281,7 +278,7 @@ img {
   display: inline-block;
 }
 
-.dropdown-content {
+.dropdownContent {
   display: none;
   position: absolute;
   background-color: #f1f1f1;
@@ -290,18 +287,18 @@ img {
   z-index: 1;
 }
 
-.dropdown-content a {
+.dropdownContent a {
   color: black;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
 }
 
-.dropdown-content a:hover {
+.dropdownContent a:hover {
   background-color: #ddd;
 }
 
-.dropdown:hover .dropdown-content {
+.dropdown:hover .dropdownContent {
   display: block;
 }
 
