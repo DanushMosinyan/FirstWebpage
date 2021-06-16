@@ -16,12 +16,9 @@ body {
 .navLink {
   background: black;
   font-size: 1.05rem;
-  margin: 0px;
+  margin: 0;
   color: #fff;
-  padding-left: 22px;
-  padding-right: 22px;
-  padding-top: 12px;
-  padding-bottom: 12px;
+  padding: 12px 22px 12px 22px;
   text-decoration: none;
   display: flex;
   align-items: center;
@@ -33,10 +30,7 @@ body {
 }
 
 button {
-  padding-left: 22px;
-  padding-right: 22px;
-  padding-top: 12px;
-  padding-bottom: 12px;
+  padding: 12px 22px 12px 22px;
   background: black;
   font-size: 1.05rem;
   color: #fff;
@@ -136,7 +130,7 @@ img {
 }
 
 .rowDiv {
-  margin-bottom: 5px;
+  margin: 0 0 5px 0;
   padding-left: 5px;
   padding-right: 5px;
   color: black;
@@ -159,8 +153,6 @@ img {
 }
 
 .avilableTicketsRow {
-  margin-top: 4px;
-  margin-bottom: 4px;
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -168,44 +160,37 @@ img {
 
 .ticketsSoldOut {
   display: flex;
-  margin-top: 4px;
-  margin-bottom: 4px;
+  margin: 4px 4px;
 }
 
 .concertCity {
   max-width: 225px;
-  margin-top: 22px;
-  margin-left: 22px;
-  margin-bottom: 37px;
-  margin-right: 22px;
+  margin: 22px 22px 37px 22px;
   background-color: #fff;
   color: black;
 }
 
 .concertDescription {
   font-size: 1.05rem;
-  margin-bottom: 22px;
+  margin: 0 0 22px 0;
 }
 
 .ticketRows {
-  margin-left: 22px;
-  margin-right: 22px;
+  margin: 0 22px 0 22px;
 }
 
 .concertDescContainer {
-  margin-bottom: 12px;
-  margin-right: 12px;
-  margin-left: 12px;
+  margin: 0 12px 12px 12px;
 }
 
-.concertCitys {
+.concertCityes {
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
 
 .nameAndEmail {
-  margin-bottom: 6px;
+  margin: 0 0 5px 0;
   width: auto;
   display: flex;
   flex-direction: row;
@@ -229,18 +214,16 @@ img {
 }
 
 .footer {
-  margin-left: 22px;
-  margin-right: 22px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0 0 25px 0 ;
+  margin: 0 0 25px 0;
 }
 
 .contactName {
   height: 22px;
   width: 100%;
-  margin-right: 6px;
+  margin : 0 6px 0 0;
 }
 
 .contactEmail {
@@ -249,7 +232,7 @@ img {
 
 .contactMessage {
   height: 22px;
-  margin-bottom: 6px;
+  margin: 0 0 6px 0;
 }
 
 .dropdownBtn {
@@ -292,8 +275,7 @@ img {
 }
 
 .socialLinks {
-  margin-top: 100px;
-  margin-bottom: 50px;
+  margin: 100px 0 50px 0;
   display: flex;
   align-items: center;
   justify-content: center;
