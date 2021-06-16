@@ -43,12 +43,12 @@ button {
   border-style: none;
 }
 
-button:hover{
+button:hover {
   background: darkgray;
   color: black;
 }
 
-button:active{
+button:active {
   background-color: gray;
 }
 
@@ -71,9 +71,7 @@ button:active{
   padding-top: 45px;
 }
 
-
 img {
-  z-index: 1;
   width: 100%;
   height: auto;
 }
@@ -83,7 +81,6 @@ img {
 }
 
 .aboutBand {
-  position: relative;
   text-align: center;
   background-color: white;
   margin-bottom: 45px;
@@ -122,7 +119,7 @@ img {
   flex-direction: column;
 }
 
-.tourTickets  {
+.tourTickets {
   width: 100%;
   background-color: black;
   color: white;
@@ -135,8 +132,7 @@ img {
   font-size: 2.25rem;
   text-align: center;
   width: 100%;
-  margin-top: 22px;
-  margin-bottom: 22px;
+  margin: 22px 0 22px 0;
 }
 
 .rowDiv {
@@ -162,7 +158,7 @@ img {
   margin-left: 15px;
 }
 
-.ticketsAvilable {
+.avilableTicketsRow {
   margin-top: 4px;
   margin-bottom: 4px;
   display: flex;
@@ -186,7 +182,7 @@ img {
   color: black;
 }
 
-.buyTicketsText {
+.concertDescription {
   font-size: 1.05rem;
   margin-bottom: 22px;
 }
@@ -196,7 +192,7 @@ img {
   margin-right: 22px;
 }
 
-.concertDesc {
+.concertDescContainer {
   margin-bottom: 12px;
   margin-right: 12px;
   margin-left: 12px;
@@ -238,6 +234,7 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 0 0 25px 0 ;
 }
 
 .contactName {
@@ -255,20 +252,9 @@ img {
   margin-bottom: 6px;
 }
 
-.lastPicture {
-  width: 100%;
-  height: auto;
-  margin-top: 90px;
-}
-
-.sendButton {
-  right: 0px;
-}
-
 .dropdownBtn {
   background-color: black;
   color: white;
-  
   font-size: 1.05rem;
   border: none;
 }
@@ -283,8 +269,6 @@ img {
   position: absolute;
   background-color: #f1f1f1;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
 }
 
 .dropdownContent a {
@@ -315,7 +299,7 @@ img {
   justify-content: center;
 }
 
-.icons {
+.icon {
   height: 25px;
   width: 25px;
   padding-left: 2px;
